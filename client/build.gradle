@@ -11,5 +11,4 @@ task npmBuild(type: NpmTask) {
 task dev(type: NpmTask){
     args= ['start']
 }
-
 assemble.dependsOn(npmBuild)
